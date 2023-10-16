@@ -1,0 +1,15 @@
+services:
+  simple64-netplay-server:
+    image: k4rian/simple64-netplay-server:latest
+    container_name: simple64-netplay-server
+    volumes:
+      - data:/home/simple64
+      - /etc/localtime:/etc/localtime:ro
+    env_file:
+      - simple64-netplay-server.env
+    ports:
+      - "45000-45010" # TCP/UDP
+    restart: unless-stopped
+
+volumes:
+  data:
