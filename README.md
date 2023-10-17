@@ -3,14 +3,14 @@
 </p>
 
 A Docker image for the [simple64][1] local multiplayer netplay server based on the official [Alpine Linux][2] [image][3].<br>
-The server allows to play N64 games via netplay using the [simple64][1] emulator.
+The server allows you to play N64 games via netplay using the [simple64][1] emulator.
 
 ---
 <div align="center">
 
-Docker Tag  | Version | Description    | Release Date |
----         | ---     | ---            | ---          |
-[latest][4] | 1.0     | Latest release | 2023-10-17   |
+Docker Tag  | Version | Description    | Release Date
+---         | ---     | ---            | ---
+[latest][4] | 1.0     | Latest release | 2023-10-17
 </div>
 <p align="center"><a href="#environment-variables">Environment variables</a> &bull; <a href="#usage">Usage</a> &bull; <a href="#using-compose">Using Compose</a> &bull; <a href="#manual-build">Manual build</a> <!-- &bull; <a href="#see-also">See also</a> --> &bull; <a href="#license">License</a></p>
 
@@ -31,7 +31,7 @@ S64NS_MAXGAMES          | 10                           | Maximum number of concu
 S64NS_DISABLEBROADCAST  | false                        | Disable LAN broadcast.
 S64NS_ENABLEAUTH        | false                        | *(undocumented)* Enable client authentication.
 
-> <sup>1</sup> The server requires the following extra ports to be opened: 45001-45010 (TCP/UDP).
+> <sup>1</sup> The server requires the following extra ports to be opened: __45001-45010__ (TCP/UDP).
 
 </details>
 
