@@ -22,7 +22,8 @@ services:
     env_file:
       - simple64-netplay-server.env
     ports:
-      - "45000-45010" # TCP/UDP
+      - "45000-45010:45000-45010/tcp"
+      - "45000-45010:45000-45010/udp"
     restart: unless-stopped
 
 volumes:
