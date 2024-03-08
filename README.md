@@ -8,9 +8,9 @@ The server allows you to play N64 games via netplay using the [simple64][1] emul
 ---
 <div align="center">
 
-Docker Tag  | Version | Description    | Release Date
----         | ---     | ---            | ---
-[latest][4] | 1.0     | Latest release | 2023-10-17
+Docker Tag  | Version | Description                | Platform
+---         | ---     | ---                        | ---
+[latest][4] | 1.1     | Latest release (2024.01.1) | amd64, arm64
 </div>
 <p align="center"><a href="#environment-variables">Environment variables</a> &bull; <a href="#usage">Usage</a> &bull; <a href="#using-compose">Using Compose</a> &bull; <a href="#manual-build">Manual build</a> <!-- &bull; <a href="#see-also">See also</a> --> &bull; <a href="#license">License</a></p>
 
@@ -40,7 +40,8 @@ Run a public server using `default ports` configuration with a maximum of `20 co
 ```bash
 docker run -d \
   --name simple64-netplay-server \
-  -p 45000-45010:45000-45010 \
+  -p 45000-45010:45000-45010/tcp \
+  -p 45000-45010:45000-45010/udp \
   -e S64NS_PORT=45000 \
   -e S64NS_MOTD="Don't forget your martini!" \
   -e S64NS_MAXGAMES=20 \
