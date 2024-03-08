@@ -1,10 +1,9 @@
 # Build the server binary
-FROM alpine:latest as builder
+FROM golang:alpine as builder
 
 RUN apk update \
     && apk -U add --no-cache \
         git \
-        go \
     && mkdir -p /server /tmp/simple64 \
     && cd /tmp/simple64 \
     && git clone "https://github.com/simple64/simple64-netplay-server.git" /tmp/simple64 \
