@@ -30,9 +30,7 @@ volumes:
   data:
 ```
 
-> When deploying, Compose maps the server ports to the same ports of the host as specified in the compose file.
-> 
-> The environment file *[simple64-netplay-server.env](simple64-netplay-server.env)* holds the server configuration.
+> The environment file *[simple64-netplay-server.env](simple64-netplay-server.env)* holds the server environment variables.
 
 ## Deployment
 ```bash
