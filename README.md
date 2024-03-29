@@ -8,9 +8,11 @@ The server allows you to play N64 games via netplay using the [simple64][1] emul
 ---
 <div align="center">
 
-Docker Tag  | Version | Description                | Platform
----         | ---     | ---                        | ---
-[latest][4] | 1.1     | Latest release (2024.03.1) | amd64, arm64
+Docker Tag     | Version | Description      | Platform
+---            | ---     | ---              | ---
+[latest][4]    | 1.1     | Latest release   | amd64, arm64
+[2024.03.1][4] | 1.1     | S64NS v2024.03.1 | amd64, arm64
+[2024.01.1][4] | 1.1     | S64NS v2024.01.1 | amd64, arm64
 </div>
 <p align="center"><a href="#environment-variables">Environment variables</a> &bull; <a href="#usage">Usage</a> &bull; <a href="#using-compose">Using Compose</a> &bull; <a href="#manual-build">Manual build</a> <!-- &bull; <a href="#see-also">See also</a> --> &bull; <a href="#license">License</a></p>
 
