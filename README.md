@@ -77,7 +77,7 @@ docker build --no-cache -t k4rian/simple64-netplay-server .
 --->
 
 ## License
-[MIT][6]
+[GPL-3.0][6]
 
 [1]: https://simple64.github.io/ "simple64 Project Page"
 [2]: https://www.alpinelinux.org/ "Alpine Linux Official Website"
