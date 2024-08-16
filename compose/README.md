@@ -16,6 +16,7 @@ services:
   simple64-netplay-server:
     image: k4rian/simple64-netplay-server:latest
     container_name: simple64-netplay-server
+    hostname: simple64
     volumes:
       - data:/home/simple64
       - /etc/localtime:/etc/localtime:ro
@@ -30,7 +31,7 @@ volumes:
   data:
 ```
 
-> The environment file *[simple64-netplay-server.env](simple64-netplay-server.env)* holds the server environment variables.
+* The environment file *[simple64-netplay-server.env](simple64-netplay-server.env)* holds the server environment variables.
 
 ## Deployment
 ```bash
