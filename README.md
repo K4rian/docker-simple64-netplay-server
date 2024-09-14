@@ -10,8 +10,8 @@ The server allows you to play N64 games via netplay using the [simple64][1] emul
 
 Docker Tag     | Version | Platform     | Description
 ---            | ---     | ---          | ---
-[latest][4]    | 1.2     | amd64, arm64 | Latest release (S64NS v2024.06.1)
-[2024.06.1][4] | 1.2     | amd64, arm64 | S64NS v2024.06.1
+[latest][8]    | 1.2     | amd64, arm64 | Latest release (S64NS v2024.06.1)
+[2024.06.1][8] | 1.2     | amd64, arm64 | S64NS v2024.06.1
 
 <details>
 <summary>Show more</summary>
@@ -58,7 +58,7 @@ docker run -d \
   -e S64NS_PORT=45000 \
   -e S64NS_MOTD="Don't forget your martini!" \
   -e S64NS_MAXGAMES=20 \
-  -i k4rian/simple64-netplay-server:latest
+  -i k4rian/simple64-netplay-server
 ```
 
 ## Using Compose
@@ -97,3 +97,4 @@ docker build --no-cache -t k4rian/simple64-netplay-server .
 [5]: https://github.com/K4rian/docker-simple64-netplay-server/tree/master/compose "Compose Files"
 [6]: https://github.com/K4rian/docker-simple64-netplay-server/blob/master/LICENSE
 [7]: https://github.com/K4rian/docker-simple64-netplay-server/blob/6970f8b95b30746f96b4f1b955de2350999e3786/Dockerfile "Dockerfile v1.1"
+[8]: https://github.com/K4rian/docker-simple64-netplay-server/blob/b6a2cc94f7c1344bbe68bb9b6834974c171f6aef/Dockerfile "Dockerfile v1.2"

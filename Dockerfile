@@ -4,7 +4,7 @@ WORKDIR /tmp/simple64
 
 RUN apk update \
     && apk -U add --no-cache \
-        git=2.45.2-r0 \
+        git \
     && mkdir -p /server \
     && git clone "https://github.com/simple64/simple64-netplay-server.git" /tmp/simple64 \
     && go mod download \
