@@ -10,14 +10,15 @@ The server allows you to play N64 games via netplay using the [simple64][1] emul
 
 Docker Tag     | Version | Platform     | Description
 ---            | ---     | ---          | ---
-[latest][8]    | 1.2     | amd64, arm64 | Latest release (S64NS v2024.06.1)
-[2024.06.1][8] | 1.2     | amd64, arm64 | S64NS v2024.06.1
+[latest][8]    | 1.2     | amd64, arm64 | Latest release (S64NS v2024.10.1)
+[2024.10.1][8] | 1.2     | amd64, arm64 | S64NS v2024.10.1
 
 <details>
 <summary>Show more</summary>
 
 Docker Tag     | Version | Platform     | Description
 ---            | ---     | ---          | ---
+[2024.06.1][8] | 1.2     | amd64, arm64 | S64NS v2024.06.1
 [2024.03.1][7] | 1.1     | amd64, arm64 | S64NS v2024.03.1
 [2024.01.1][7] | 1.1     | amd64, arm64 | S64NS v2024.01.1
 
