@@ -3,21 +3,22 @@
 </p>
 
 A Docker image for the [simple64][1] local multiplayer netplay server based on the official [Alpine Linux][2] [image][3].<br>
-The server allows you to play N64 games via netplay using the [simple64][1] emulator.
+The server allows you to play N64 games via netplay using the [simple64][1] or [Mupen64Plus][9] emulators (with [Rosalie's Mupen GUI (RMG)][10] for the latter).
 
 ---
 <div align="center">
 
 Docker Tag     | Version | Platform     | Description
 ---            | ---     | ---          | ---
-[latest][8]    | 1.2     | amd64, arm64 | Latest release (S64NS v2024.10.1)
-[2024.10.1][8] | 1.2     | amd64, arm64 | S64NS v2024.10.1
+[latest][8]    | 1.2     | amd64, arm64 | Latest release (S64NS v2024.12.1)
+[2024.12.1][8] | 1.2     | amd64, arm64 | S64NS v2024.12.1
 
 <details>
 <summary>Show more</summary>
 
 Docker Tag     | Version | Platform     | Description
 ---            | ---     | ---          | ---
+[2024.10.1][8] | 1.2     | amd64, arm64 | S64NS v2024.10.1
 [2024.06.1][8] | 1.2     | amd64, arm64 | S64NS v2024.06.1
 [2024.03.1][7] | 1.1     | amd64, arm64 | S64NS v2024.03.1
 [2024.01.1][7] | 1.1     | amd64, arm64 | S64NS v2024.01.1
@@ -99,3 +100,5 @@ docker build --no-cache -t k4rian/simple64-netplay-server .
 [6]: https://github.com/K4rian/docker-simple64-netplay-server/blob/master/LICENSE
 [7]: https://github.com/K4rian/docker-simple64-netplay-server/blob/6970f8b95b30746f96b4f1b955de2350999e3786/Dockerfile "Dockerfile v1.1"
 [8]: https://github.com/K4rian/docker-simple64-netplay-server/blob/b6a2cc94f7c1344bbe68bb9b6834974c171f6aef/Dockerfile "Dockerfile v1.2"
+[9]: https://github.com/mupen64plus/mupen64plus-core "Mupen64Plus-Core repository"
+[10]: https://github.com/Rosalie241/RMG "Rosalie's Mupen GUI (RMG) repository"
