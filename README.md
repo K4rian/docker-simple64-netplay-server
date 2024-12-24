@@ -43,8 +43,8 @@ S64NS_PORT              | 45000                        | Port<sup>1</sup> to lis
 S64NS_LOGPATH           | simple64-netplay-server.log  | File path to store the logs.
 S64NS_MOTD              |                              | Message of the day to display to clients.
 S64NS_MAXGAMES          | 10                           | Maximum number of concurrent games.
-S64NS_DISABLEBROADCAST  | false                        | Disable LAN broadcast.
-S64NS_ENABLEAUTH        | false                        | *(undocumented)* Enable client authentication.
+S64NS_DISABLEBROADCAST  | false                        | Disables LAN broadcast.
+S64NS_ENABLEAUTH        | false                        | Enables [client authentication][11].
 
 > <sup>1</sup> The server requires the following extra ports to be opened: __45001-45010__ (TCP/UDP).
 
@@ -100,5 +100,6 @@ docker build --no-cache -t k4rian/simple64-netplay-server .
 [6]: https://github.com/K4rian/docker-simple64-netplay-server/blob/master/LICENSE
 [7]: https://github.com/K4rian/docker-simple64-netplay-server/blob/6970f8b95b30746f96b4f1b955de2350999e3786/Dockerfile "Dockerfile v1.1"
 [8]: https://github.com/K4rian/docker-simple64-netplay-server/blob/b6a2cc94f7c1344bbe68bb9b6834974c171f6aef/Dockerfile "Dockerfile v1.2"
-[9]: https://github.com/mupen64plus/mupen64plus-core "Mupen64Plus-Core repository"
-[10]: https://github.com/Rosalie241/RMG "Rosalie's Mupen GUI (RMG) repository"
+[9]: https://github.com/mupen64plus/mupen64plus-core "Mupen64Plus-Core Repository"
+[10]: https://github.com/Rosalie241/RMG "Rosalie's Mupen GUI (RMG) Repository"
+[11]: https://github.com/simple64/simple64-netplay-server/wiki/Client-Authentication "simple64's Client Authentication Wiki entry"
