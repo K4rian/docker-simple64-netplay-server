@@ -10,8 +10,8 @@ The server allows you to play N64 games via netplay using the [simple64][1] or [
 
 Docker Tag     | Version | Platform     | Description
 ---            | ---     | ---          | ---
-[latest][8]    | 1.2     | amd64, arm64 | Latest release (S64NS v2025.01.1)
-[2025.01.1][8] | 1.2     | amd64, arm64 | S64NS v2025.01.1
+[latest][4]    | 1.3     | amd64, arm64 | Latest release (S64NS v2025.01.1)
+[2025.01.1][4] | 1.3     | amd64, arm64 | S64NS v2025.01.1
 
 <details>
 <summary>Show more</summary>
@@ -45,8 +45,8 @@ S64NS_PORT              | 45000                        | Port<sup>1</sup> to lis
 S64NS_LOGPATH           | simple64-netplay-server.log  | File path to store the logs.
 S64NS_MOTD              |                              | Message of the day to display to clients.
 S64NS_MAXGAMES          | 10                           | Maximum number of concurrent games.
-S64NS_DISABLEBROADCAST  | false                        | Disables LAN broadcast.
-S64NS_ENABLEAUTH        | false                        | Enables [client authentication][11].
+S64NS_DISABLEBROADCAST  | false                        | (Optional) Disables LAN broadcast.
+S64NS_ENABLEAUTH        | false                        | (Optional) Enables [client authentication][11].
 
 > <sup>1</sup> The server requires the following extra ports to be opened: __45001-45010__ (TCP/UDP).
 
