@@ -3,7 +3,7 @@
 </p>
 
 A Docker image for the [simple64][1] local multiplayer netplay server based on the official [Alpine Linux][2] [image][3].<br>
-The server allows you to play N64 games via netplay using the [simple64][1] or [Mupen64Plus][9] emulators (with [Rosalie's Mupen GUI (RMG)][10] for the latter).
+The server allows you to play N64 games via netplay using [simple64][1], [gopher64][12] or the [Mupen64Plus][9] (with [Rosalie's Mupen GUI (RMG)][10]) emulator.
 
 ---
 <div align="center">
@@ -105,3 +105,4 @@ docker build --no-cache -t k4rian/simple64-netplay-server .
 [9]: https://github.com/mupen64plus/mupen64plus-core "Mupen64Plus-Core Repository"
 [10]: https://github.com/Rosalie241/RMG "Rosalie's Mupen GUI (RMG) Repository"
 [11]: https://github.com/simple64/simple64-netplay-server/wiki/Client-Authentication "simple64's Client Authentication Wiki entry"
+[12]: https://github.com/gopher64/gopher64 "gopher64 Repository"
