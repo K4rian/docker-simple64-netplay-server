@@ -10,14 +10,15 @@ The server allows you to play N64 games via netplay using [simple64][1], [gopher
 
 Docker Tag     | Version | Platform     | Description
 ---            | ---     | ---          | ---
-[latest][4]    | 1.3     | amd64, arm64 | Latest release (S64NS v2025.01.1)
-[2025.01.1][4] | 1.3     | amd64, arm64 | S64NS v2025.01.1
+[latest][4]    | 1.3     | amd64, arm64 | Latest release (S64NS v2025.01.3)
+[2025.01.3][4] | 1.3     | amd64, arm64 | S64NS v2025.01.3
 
 <details>
 <summary>Show more</summary>
 
 Docker Tag     | Version | Platform     | Description
 ---            | ---     | ---          | ---
+[2025.01.1][4] | 1.3     | amd64, arm64 | S64NS v2025.01.1
 [2024.12.3][8] | 1.2     | amd64, arm64 | S64NS v2024.12.3
 [2024.12.1][8] | 1.2     | amd64, arm64 | S64NS v2024.12.1
 [2024.10.1][8] | 1.2     | amd64, arm64 | S64NS v2024.10.1
